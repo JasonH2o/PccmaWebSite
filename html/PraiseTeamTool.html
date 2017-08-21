@@ -23,7 +23,7 @@
     <title>Pccma Praise Team</title>
 	<meta charset="utf-8" />
 </head>
-<body>
+<body id="main-body">
     <header id="header">
 
         <div class="navbar navbar-inverse" role="banner">
@@ -40,7 +40,7 @@
                         <li><a href="../index.html">Home</a></li>
                         <li><a href="#" onclick="HandleWorshipInfo()">Worship</a></li>
                         <li><a href="#" onclick="HandleSignUp()">Sign up for position</a></li>
-                        <li><a href="#" onclick="HandleTeamMembers()">Team Members</a></li>                        
+                        <li><a href="#" onclick="HandlePraiseTeamMembers()">Team Members</a></li>                        
                     </ul>
                 </div>
                 <div class="search">
@@ -62,7 +62,8 @@
                     <img src="../images/home/under.png" class="img-responsive inline" alt="">
                 </div>
 
-                <div class="main-slider">
+                <div class="main-slider" id="main-div">
+                    <h2>Worship Schedule:</h2>
                     <table class="table table-hover">
                         <thead class="thead-default">
                             <tr>
@@ -102,32 +103,9 @@
                             <td>......</td>
                             <td>songs~~~</td>
                         </tr>
-                        <tr>
-                            <td>8/13/2017</td>
-                            <td>Revial</td>
-                            <td>......</td>
-                            <td>songs~~~</td>
-                        </tr>
-                        <tr>
-                            <td>8/13/2017</td>
-                            <td>Revial</td>
-                            <td>......</td>
-                            <td>songs~~~</td>
-                        </tr>
-                        <tr>
-                            <td>8/13/2017</td>
-                            <td>Revial</td>
-                            <td>......</td>
-                            <td>songs~~~</td>
-                        </tr>
-                        <tr>
-                            <td>8/13/2017</td>
-                            <td>Revial</td>
-                            <td>......</td>
-                            <td>songs~~~</td>
-                        </tr>
+                      
                     </table>
-                    <img src="../images/home/tour-icon1.png" class="slider-hill" alt="slider image">
+                    <img src="../images/home/tour-icon1.png" class="slider-hill" alt="slider image">                    
                 </div>
 
             </div>
@@ -135,7 +113,8 @@
         <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
 
     </section>    
-
+    <div class="live-preview" align ="center" id="btn-div">        
+    </div>
     <!--<footer class="bottom">
         <div class="container">
             <div class="row">             
@@ -152,7 +131,7 @@
                 </div>
                 <div class="col-sm-12">
                     <div>
-                        <img src="../images/home/footer.png" class="img-responsive inline" alt="">
+                        <img src="../images/home/footer_modified.png" class="img-responsive inline" alt="">
                     </div>
                 </div>
             </div>
